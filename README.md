@@ -23,7 +23,7 @@ Restart Package Manager
 #### Platforms
 `win32` - Windows\
 `darwin` - macOS\
-`linux` - Linux\
+`linux` - Linux
 #### Package Architecture
 `AMD64` - 64bit\
 `aarch64` - Arm 64bit
