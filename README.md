@@ -21,11 +21,11 @@ Restart Package Manager
 ## Hosting a Repo
 ### Supported Features
 #### Platforms
-`win32` - Windows
-`darwin` - macOS
-`linux` - Linux
+`win32` - Windows\
+`darwin` - macOS\
+`linux` - Linux\
 #### Package Architecture
-`AMD64` - 64bit
+`AMD64` - 64bit\
 `aarch64` - Arm 64bit
 
 Your repo must be hosting a `repo.json` file, with the following structure:
