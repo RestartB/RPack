@@ -19,6 +19,54 @@
                     }
                 }
             }
+        },
+        "vscode" : {
+            "info" : {
+                "fullName" : "Visual Studio Code",
+                "description" : "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+                "author" : "Microsoft OSS",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+                        "installCommand" : "msiexec /i {FILE} /passive"
+                    }
+                }
+            }
+        },
+        "discord" : {
+            "info" : {
+                "fullName" : "Discord",
+                "description" : "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+                "author" : "Discord Corp.",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64",
+                        "installCommand" : ".\{FILE}"
+                    }
+                }
+            }
+        },
+        "discord-testing" : {
+            "info" : {
+                "fullName" : "Discord Testing",
+                "description" : "Discord (testing branch) is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+                "author" : "Discord Corp.",
+                "latest" : "latest-testing"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest-testing" : {
+                        "sourceURL" : "https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64",
+                        "installCommand" : ".\{FILE}"
+                    }
+                }
+            }
         }
     }
 }
