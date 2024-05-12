@@ -47,7 +47,7 @@
                 "AMD64" : {
                     "latest" : {
                         "sourceURL" : "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64",
-                        "installCommand" : ".\{FILE}"
+                        "installCommand" : ".\\{FILE}"
                     }
                 }
             }
@@ -63,7 +63,7 @@
                 "AMD64" : {
                     "latest-testing" : {
                         "sourceURL" : "https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64",
-                        "installCommand" : ".\{FILE}"
+                        "installCommand" : ".\\{FILE}"
                     }
                 }
             }
