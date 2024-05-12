@@ -1,0 +1,24 @@
+{
+    "repo-name" : "Example Repo",
+    "repo-author" : "Restart",
+    "repo-country" : "GB",
+    "packages" :
+    {
+        "vlc" : {
+            "info" : {
+                "fullName" : "VLC Media Player",
+                "description" : "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.",
+                "author" : "VideoLAN",
+                "latest" : "3.0.20"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "3.0.20" : {
+                        "sourceURL" : "https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.msi",
+                        "installCommand" : "msiexec /i {FILE} /passive"
+                    }
+                }
+            }
+        }
+    }
+}
