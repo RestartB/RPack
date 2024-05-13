@@ -1,6 +1,6 @@
 {
     "repo-ver" : "rpack-v1",
-    "repo-name" : "Example Repo",
+    "repo-name" : "Restart's Repo",
     "repo-author" : "Restart",
     "repo-country" : "GB",
     "packages" :
@@ -64,6 +64,150 @@
                 "AMD64" : {
                     "latest-testing" : {
                         "sourceURL" : "https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "firefox" : {
+            "info" : {
+                "fullName" : "Firefox",
+                "description" : "Firefox is a free web browser backed by Mozilla, a non-profit dedicated to internet health and privacy.",
+                "author" : "Mozilla",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-GB",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "7zip" : {
+            "info" : {
+                "fullName" : "7-Zip",
+                "description" : "7-Zip is a file archiver with a high compression ratio.",
+                "author" : "Igor Pavlov",
+                "latest" : "23.01"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "23.01" : {
+                        "sourceURL" : "https://www.7-zip.org/a/7z2404-x64.msi",
+                        "installCommand" : "msiexec /i {FILE} /passive"
+                    }
+                }
+            }
+        },
+        "steam" : {
+            "info" : {
+                "fullName" : "Steam",
+                "description" : "Steam is the ultimate destination for playing, discussing, and creating games.",
+                "author" : "Valve Corp.",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "spotify" : {
+            "info" : {
+                "fullName" : "Spotify",
+                "description" : "Spotify is a digital music service that gives you access to millions of songs.",
+                "author" : "Spotify",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://download.scdn.co/SpotifySetup.exe",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "python" : {
+            "info" : {
+                "fullName" : "Python",
+                "description" : "Python is a high-level, general-purpose programming language.",
+                "author" : "Python Software Foundation",
+                "latest" : "3.12.3"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "3.12.3" : {
+                        "sourceURL" : "https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "qbittorrent" : {
+            "info" : {
+                "fullName" : "qBittorrent",
+                "description" : "The qBittorrent project aims to provide an open-source software alternative to µTorrent.",
+                "author" : "qBittorrent",
+                "latest" : "4.6.4"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "4.6.4" : {
+                        "sourceURL" : "https://netcologne.dl.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-4.6.4/qbittorrent_4.6.4_x64_setup.exe?viasf=1",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "epic-games" : {
+            "info" : {
+                "fullName" : "Epic Games Launcher",
+                "description" : "Download and play PC Games of every genre. We have mods, DLC and Free Games too!",
+                "author" : "Epic Games",
+                "latest" : "latest"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "latest" : {
+                        "sourceURL" : "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
+                        "installCommand" : "msiexec /i {FILE} /passive"
+                    }
+                }
+            }
+        },
+        "powertoys" : {
+            "info" : {
+                "fullName" : "Microsoft Powertoys",
+                "description" : "Microsoft PowerToys is a set of utilities for customizing Windows.",
+                "author" : "Microsoft OSS",
+                "latest" : "0.80.1"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "0.80.1" : {
+                        "sourceURL" : "https://github.com/microsoft/PowerToys/releases/download/v0.80.1/PowerToysUserSetup-0.80.1-x64.exe",
+                        "installCommand" : ".\\{FILE}"
+                    }
+                }
+            }
+        },
+        "jetbrains" : {
+            "info" : {
+                "fullName" : "Jetbrains Toolbox",
+                "description" : "Manage your JetBrains tools easily.",
+                "author" : "Jetbrains",
+                "latest" : "2.3.1.31116"
+            },
+            "win32" : {
+                "AMD64" : {
+                    "2.3.1.31116" : {
+                        "sourceURL" : "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-2.3.1.31116.exe",
                         "installCommand" : ".\\{FILE}"
                     }
                 }
