@@ -1,25 +1,25 @@
 {
-  "repo-ver" : "rpack-v1",
-  "repo-name" : "Your Repo's Name",
-  "repo-author" : "Repo Author's Name",
-  "repo-country" : "Country Code (e.g. GB)",
-  "packages" :
-  {
-      "Package Name (must be all one word)" : {
-          "info" : {
-              "fullName" : "Package Full Name",
-              "description" : "Package Description",
-              "author" : "Package Author",
-              "latest" : "Latest Package Version"
-          },
-          "Package Platform" : {
-              "Package Architecture" : {
-                  "Package Version" : {
-                      "sourceURL" : "Package Source URL",
-                      "installCommand" : "Package Install Command (use {FILE} as placeholder for file)"
-                  }
-              }
-          }
-      }
-  }
+    "repo-ver" : "rpack-v1",
+    "repo-name" : "Repo Name",
+    "repo-author" : "Repo Author",
+    "repo-country" : "Repo Country Code",
+    "packages" :
+    {
+        "package-name (no spaces)" : {
+            "info" : {
+                "fullName" : "Package Full Name",
+                "description" : "Package Description",
+                "author" : "Package Author",
+                "latest" : "Package Latest Version (use latest for no specific version)"
+            },
+            "Package OS" : {
+                "Package Arch" : {
+                    "Version (use latest for no specific version)" : {
+                        "sourceURL" : "Package URL",
+                        "installCommand" : "Package Install Command (use {FILE} as placeholder for install file)"
+                    }
+                }
+            }
+        }
+    }
 }
