@@ -3,20 +3,16 @@ Restart Package Manager
 
 ## Current Supported Features
 ### Essentials
-- [ ] Adding Repos
+- [X] Adding Repos
 - [X] Removing Repos
 - [X] Syncing Repos
 - [X] Downloading Packages
 - [ ] Updating Packages
 - [ ] Uninstalling Packages
 
-### Downloading Features
-- [X] Downloading packages from Web
-- [ ] Downloading packages from Repo Storage
-
 ### Other
 - [X] Multi-platform Support
-- [ ] Multi-arch Support
+- [X] Multi-arch Support
 
 ## Hosting a Repo
 ### Supported Features
