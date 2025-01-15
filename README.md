@@ -1,6 +1,9 @@
 # RPack
 Restart Package Manager
 
+## 🚨 Done
+Although there are still some features pending on the to-do list, I class this as done. I simply wasn't having fun developing it.
+
 ## Current Supported Features
 ### Essentials
 - [X] Adding Repos
